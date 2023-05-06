@@ -1,0 +1,173 @@
+:root {
+    --lightcolor: #F9FEF9;
+    --darkcolor: black;
+}
+
+
+body {
+    background-image: url("./images/pexels-sabrina-gelbart-249798.jpg");
+    background-repeat: repeat;
+    background-position: top;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+    padding: 0px 160px;
+}
+
+h1 {
+    color:var(--lightcolor);
+    font-weight: 900;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    color:var(--lightcolor)
+}
+
+nav ul, footer ul {
+    list-style: none;
+}
+
+nav a {
+    color:var(--lightcolor)
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color:#c83466;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    color: rgb(215, 206, 103);
+    font-size: 60px;
+    margin: 30px 160px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.portfolio-box {
+    border: solid rgb(215, 206, 103);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:#f9fef9e7;
+    margin: 0px 160px 20px 160px;
+    padding-left: 20px;
+}
+
+.bio,
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px, 40px;
+    margin-right: 20px;
+    gap: 40px;
+}
+
+.profile-photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 50px;
+    margin-left: -20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F9FEF9;
+}
+
+.main-repo {
+    width: 90%;
+    height: auto;
+}
+
+.week-one-challenge,
+.prework-study-guide,
+.odin-recipes,
+.resume {
+    width: 43%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-info {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+.icon {
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 9px;
+    left: 5px;
+  }
+
+.copyright {
+    display: flex;
+    align-self: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
