@@ -9,7 +9,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-position: 0% 6%;
+    background-position: 0% 10%;
     height: 100%;
     background-size: cover;
     margin: 0px;
@@ -68,7 +68,7 @@ nav a:hover {
     justify-content: center;
     color: rgb(215, 206, 103);
     font-size: 60px;
-    margin: 40px 205px 40px 180px;
+    margin: 28px 205px 28px 180px;
     padding: 40px;
     background-color: rgb(0, 0, 0);
 
@@ -87,7 +87,7 @@ main {
     justify-content: center;
     align-items: flex-start;
     background-color:#f9fef900;
-    margin: 30px 205px 20px 205px;
+    margin: 0px 205px 0px 205px;
 }
 
 .bio,
