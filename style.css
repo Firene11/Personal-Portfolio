@@ -60,13 +60,13 @@ a:link {
 }
 
 nav a:hover {
-    color:#c83466;
+    color:#b9b7b6;
 }
 
 .portfolio {
     display: flex;
     justify-content: center;
-    color: rgb(215, 206, 103);
+    color: black;
     font-size: 60px;
     margin: 28px 205px 28px 180px;
     padding: 40px;
@@ -75,9 +75,10 @@ nav a:hover {
 }
 
 .portfolio-box {
-    border: solid rgb(215, 206, 103);
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25%;
+    background-color: #dfb87b;
 }
 
 
