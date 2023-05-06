@@ -92,7 +92,7 @@ main {
     margin: 0px 205px 0px 205px;
 }
 
-.bio,
+#bio,
 .footer-info {
     display: flex;
     justify-content: center;
@@ -109,7 +109,7 @@ main {
     padding: 10px;
 }
 
-.work {
+#work {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,7 +140,7 @@ footer {
     align-items: flex-start;
 }
 
-.footer-info {
+#contact {
     display: flex;
 }
 
