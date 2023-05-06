@@ -75,8 +75,7 @@ nav a:hover {
 }
 
 .portfolio-box {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 10px 30px;
     border-radius: 25%;
     background-color: #dfb87b;
 }
