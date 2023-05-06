@@ -33,14 +33,14 @@ nav {
 
 h1 {
     color:var(--lightcolor);
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 nav ul {
