@@ -70,7 +70,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     color: black;
-    font-size: 115px;
+    font-size: 112px;
     padding: 20px;
     font-family: cursive;
     text-shadow: 2px 2px white;
@@ -90,8 +90,7 @@ main {
 
 hr {
     border: solid black;
-    width: 900px;
-    margin-left: 6px;
+    width: 800px;
 }
 
 #bio,
@@ -235,15 +234,56 @@ footer {
     margin-top: 60px;
 }
 
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
+/* Tablets */
+@media screen and (max-width: 992px) {
+    .portfolio {
+        font-size: 60px;
+    }
+    #bio {
+        flex-direction: column;
+    }
+    hr {
+        width: 400px;
     }
   }
+
+ /* Large smartphones */
+ @media screen and (max-width: 768px) {
+    main {
+        margin: 0px;
+    }
+    nav {
+        padding: 4px;
+    }
+    .portfolio {
+        font-size: 32px;
+    }
+    #bio {
+        flex-direction: column;
+    }
+    hr {
+        width: 400px;
+    }
+    .quote {
+        padding-left: 20px;
+    }
+  }
+
+   /* Small smartphones */
+   @media screen and (max-width: 576px) {
+    main {
+        margin: 0px;
+    }
+    nav {
+        padding: 4px;
+    }
+    .portfolio {
+        font-size: 24px;
+    }
+    #bio {
+        flex-direction: column;
+    }
+    .quote {
+        padding-left: 20px;
+    }
+}
