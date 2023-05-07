@@ -5,7 +5,7 @@
 
 
 html, body {
-    background-image: url("./images/pexels-anna-nekrashevich-8533220.jpg");
+    background-image: url("./images/pexels-steve-johnson-1572386.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -88,8 +88,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color:#f9fef900;
+    background-color:white;
     margin: 0px 205px 0px 205px;
+    padding-left: 10px;
 }
 
 #bio,
