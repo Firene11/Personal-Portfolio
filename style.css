@@ -112,22 +112,49 @@ main {
 #work {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
+    gap: 30px;
     padding-bottom: 40px;
 }
 
-.main-repo {
+.card-1 {
+    background-image: url("./images/color-state.jpg");
     width: 98%;
-    height: auto;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
 }
 
-.week-one-challenge,
-.prework-study-guide,
-.odin-recipes,
-.resume {
-    width: 40%;
-    height: auto;
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    width: 45%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.card-2 {
+    background-image: url("./images/Week-01-challenge.jpg");
+}
+
+.card-3 {
+    background-image: url("./images/prework.jpg");
+}
+
+.card-4 {
+    background-image: url("./images/recipes.jpg");
+}
+
+.card-5 {
+    background-image: url("./images/pexels-anna-tarazevich-5598289.jpg");
 }
 
 footer {
