@@ -133,14 +133,20 @@ hr {
     height: 20%;
 }
 
+#work p:hover {
+    background-color: white;
+    color: black;
+}
+
 .card-1 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.132), rgba(0, 0, 0, 0.73)),
     url("./images/color-state.jpg");
-    width: 98%;
+    width: 93%;
     height: 320px;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
 .card-2,
