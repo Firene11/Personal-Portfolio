@@ -146,7 +146,7 @@ hr {
 .card-2,
 .card-3,
 .card-4,
-.card-5 {
+#card-5 {
     width: 45%;
     height: 220px;
     background-size: cover;
@@ -155,6 +155,7 @@ hr {
     color: #dfb87b;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
+
 
 .card-2 {
     background-image: 
@@ -174,7 +175,7 @@ hr {
     url("./images/recipes.jpg");
 }
 
-.card-5 {
+#card-5 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.792), rgba(0, 0, 0, 0.73)),
     url("./images/pexels-anna-tarazevich-5598289.jpg");
