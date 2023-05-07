@@ -9,7 +9,7 @@ html, body {
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: 0% 10%;
     height: 100%;
     background-size: cover;
@@ -28,14 +28,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.89);
     margin: 0px;
     padding: 0px 205px;
 }
 
 h1 {
     color:var(--lightcolor);
-    font-weight: 600;
+    font-size: 30px;
+    margin: 5px 0px;
 }
 
 .navigation {
@@ -69,9 +70,8 @@ nav a:hover {
     display: flex;
     justify-content: center;
     color: black;
-    font-size: 60px;
-    margin: 10px 205px 10px 205px;
-    padding: 40px;
+    font-size: 115px;
+    padding: 20px;
     font-family: cursive;
 
 }
@@ -204,9 +204,14 @@ footer {
     left: 5px;
   }
 
+  .quote {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+
 .copyright {
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.731);
     color: var(--lightcolor);
     padding: 20px 0px;
 }
