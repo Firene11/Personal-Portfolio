@@ -6,6 +6,7 @@
 
 html, body {
     background-image: url("./images/pexels-steve-johnson-1572386.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -84,6 +85,12 @@ main {
     background-color:white;
     margin: 0px 205px 0px 205px;
     padding-left: 10px;
+}
+
+hr {
+    border: solid black;
+    width: 900px;
+    margin-left: 6px;
 }
 
 #bio,
