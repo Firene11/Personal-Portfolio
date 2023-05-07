@@ -29,7 +29,7 @@ nav {
     align-items: center;
     background-color: black;
     margin: 0px;
-    padding: 0px 210px 0px 180px;
+    padding: 0px 205px;
 }
 
 h1 {
@@ -69,17 +69,10 @@ nav a:hover {
     justify-content: center;
     color: black;
     font-size: 60px;
-    margin: 28px 205px 28px 180px;
+    margin: 10px 205px 10px 205px;
     padding: 40px;
-    background-color: black;
-    border-radius: 25%;
+    font-family: cursive;
 
-}
-
-.portfolio-box {
-    padding: 10px 30px;
-    border-radius: 25%;
-    background-color: #dfb87b;
 }
 
 
