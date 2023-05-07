@@ -119,14 +119,25 @@ main {
     padding-bottom: 40px;
 }
 
+#work p {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.822);
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 0px;
+    width: 25%;
+    height: 20%;
+}
+
 .card-1 {
-    background-image: url("./images/color-state.jpg");
+    background-image: 
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)),
+    url("./images/color-state.jpg");
     width: 98%;
     height: 320px;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    color: white;
 }
 
 .card-2,
@@ -137,8 +148,9 @@ main {
     height: 220px;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    color: white;
+    text-align: left;
+    color: #dfb87b;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 .card-2 {
