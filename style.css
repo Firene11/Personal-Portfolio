@@ -83,8 +83,9 @@ main {
     justify-content: center;
     align-items: flex-start;
     background-color:white;
-    margin: 0px 205px 0px 205px;
+    margin: 0px 205px;
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 hr {
