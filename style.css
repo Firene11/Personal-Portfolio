@@ -256,8 +256,13 @@ footer {
         margin: 0px;
     }
     nav {
-        padding: 4px;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
     }
+    .navigation {
+        padding-left: 0px;
+    }    
     .portfolio {
         font-size: 32px;
     }
@@ -273,6 +278,7 @@ footer {
     }
     .quote {
         padding-left: 20px;
+        padding-right: 20px;
     }
   }
 
@@ -282,8 +288,13 @@ footer {
         margin: 0px;
     }
     nav {
-        padding: 4px;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
+    .navigation {
+        padding-left: 0px;
+    }  
     .portfolio {
         font-size: 24px;
     }
@@ -296,5 +307,6 @@ footer {
     }
     .quote {
         padding-left: 20px;
+        padding-right: 20px;
     }
 }
