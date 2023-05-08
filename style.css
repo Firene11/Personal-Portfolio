@@ -276,7 +276,7 @@ footer {
         margin-right: auto;
     }
     hr {
-        width: 400px;
+        width: 300px;
     }
     #work p {
         width: 50%;
@@ -320,6 +320,9 @@ footer {
     .profile-photo {
         margin-left: auto;
         margin-right: auto;
+    }
+    hr {
+        width: 300px;
     }
     #work p {
         width: 50%;
