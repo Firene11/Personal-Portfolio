@@ -24,6 +24,7 @@ header {
     margin: 0px;
 }
 
+/* nav flex box includes h1 and .navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -54,6 +55,7 @@ nav ul, footer ul {
     list-style: none;
 }
 
+/* navigation link color */
 nav a {
     color:var(--lightcolor)
 }
@@ -62,10 +64,12 @@ a:link {
     text-decoration: none; 
 }
 
+/* navigation change color on hover */
 nav a:hover {
     color:#b9b7b6;
 }
 
+/* this is the portfolio text under navigation */
 .portfolio {
     display: flex;
     justify-content: center;
@@ -76,6 +80,7 @@ nav a:hover {
     text-shadow: 2px 2px white;
 }
 
+/* main flex box includes bio work contact and footer */
 main {
     display: flex;
     flex-direction: column;
@@ -87,6 +92,7 @@ main {
     padding-bottom: 20px;
 }
 
+/* this is a line */
 hr {
     border: solid black;
     width: 800px;
@@ -120,6 +126,7 @@ hr {
     padding-bottom: 40px;
 }
 
+/* this is the text in the upper left tabs of the image in the work section */
 #work p {
     display: inline-flex;
     background-color: rgba(0, 0, 0, 0.822);
@@ -131,11 +138,13 @@ hr {
     height: 20%;
 }
 
+/* changes the color of text and background in the upper left tabs in the image of the work section */
 #work p:hover {
     background-color: white;
     color: black;
 }
 
+/* main image card link to work is larger than the rest */
 .card-1 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.132), rgba(0, 0, 0, 0.73)),
@@ -147,6 +156,7 @@ hr {
     background-color: black;
 }
 
+/* these smaller cards follow the main card */
 .card-2,
 .card-3,
 .card-4,
@@ -160,6 +170,7 @@ hr {
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+/* card background images */
 
 .card-2 {
     background-image: 
@@ -185,6 +196,7 @@ hr {
     url("./images/pexels-anna-tarazevich-5598289.jpg");
 }
 
+/* footer flex box contains contact, footer-links, icons, and quote */
 footer {
     display: flex;
     flex-direction: column;
@@ -210,11 +222,13 @@ footer {
     padding-right: 5px;
   }
 
+  /* changes color of footer links */
 .footer-links a {
     color:black;
     font-weight: bold;
 }
 
+/* changes color of hover on footer links */
   .footer-links a:hover {
     color:#b9b7b6;
 }
