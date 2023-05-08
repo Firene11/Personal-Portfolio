@@ -205,7 +205,6 @@ footer {
 
 .icon {
     position: relative;
-    /* Adjust these values accordingly */
     top: 9px;
     left: 5px;
     padding-right: 5px;
@@ -279,10 +278,16 @@ footer {
     #work p {
         width: 50%;
         height: 20%;
+    }    
+    #contact {
+        flex-direction: column;
+        align-items: center;
+    }    
+    .icons {
+        padding: 0px 20px;
     }
     .quote {
-        padding-left: 20px;
-        padding-right: 50px;
+        padding: 20px;
     }
   }
 
@@ -312,6 +317,13 @@ footer {
     #work p {
         width: 50%;
         height: 20%;
+    }
+    #contact {
+        flex-direction: column;
+        align-items: center;
+    }    
+    .icons {
+        padding: 0px 20px;
     }
     .quote {
         padding-left: 20px;
