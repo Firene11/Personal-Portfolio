@@ -12,9 +12,6 @@ N/A
 ## Usage
 N/A
 
-## Screenshot
-
-
 ## Credits
 Background Image by Steve Johnson  
 https://www.pexels.com/photo/black-and-white-abstract-painting-1572386/
