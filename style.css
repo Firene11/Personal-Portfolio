@@ -276,6 +276,10 @@ footer {
     hr {
         width: 400px;
     }
+    #work p {
+        width: 50%;
+        height: 20%;
+    }
     .quote {
         padding-left: 20px;
         padding-right: 20px;
@@ -304,6 +308,10 @@ footer {
     .profile-photo {
         margin-left: auto;
         margin-right: auto;
+    }
+    #work p {
+        width: 50%;
+        height: 20%;
     }
     .quote {
         padding-left: 20px;
