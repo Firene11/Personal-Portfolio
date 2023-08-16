@@ -76,7 +76,7 @@ nav a:hover {
     color: black;
     font-size: 112px;
     padding: 20px;
-    font-family: cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 2px 2px white;
 }
 
@@ -148,7 +148,7 @@ hr {
 .card-1 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.132), rgba(0, 0, 0, 0.73)),
-    url("./images/screenshot.jpg");
+    url("./images/AG.jpg");
     width: 93%;
     height: 320px;
     background-size: cover;
@@ -160,7 +160,7 @@ hr {
 .card-2,
 .card-3,
 .card-4,
-#card-5 {
+.card-5 {
     width: 45%;
     height: 220px;
     background-size: cover;
@@ -175,25 +175,25 @@ hr {
 .card-2 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.792), rgba(0, 0, 0, 0.73)),
-    url("./images/Week-01-challenge.jpg");
+    url("./images/screenshot.jpg");
 }
 
 .card-3 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.792), rgba(0, 0, 0, 0.73)),
-    url("./images/prework.jpg");
+    url("./images/Week-01-challenge.jpg");
 }
 
 .card-4 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.792), rgba(0, 0, 0, 0.73)),
-    url("./images/recipes.jpg");
+    url("./images/prework.jpg");
 }
 
-#card-5 {
+.card-5 {
     background-image: 
     linear-gradient(to bottom, rgba(245, 246, 252, 0.792), rgba(0, 0, 0, 0.73)),
-    url("./images/pexels-anna-tarazevich-5598289.jpg");
+    url("./images/recipes.jpg");
 }
 
 /* footer flex box contains contact, footer-links, icons, and quote */
